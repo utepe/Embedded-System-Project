@@ -131,8 +131,6 @@ void loop() {
   IrReceiver.resume();
 }
 
-
-
 void dispenseDrink() {
   // If 4 seconds have elapsed and item has not been dispensed
   if (!itemDispensed) {
